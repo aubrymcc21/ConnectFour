@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Connect4 {
+public class ConnectFour {
 public static void main(String[] args) {
 Scanner in = new Scanner(System.in);
  char[][] grid = createEmptyGrid();
