@@ -1,6 +1,6 @@
 Creator: Aubry McConnell
 
-Co-creators: Alyssa Nida
+Co-creator: Alyssa Nida
 
 Project Title: ConnectFour
 
