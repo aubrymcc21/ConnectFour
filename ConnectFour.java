@@ -6,7 +6,7 @@ Scanner in = new Scanner(System.in);
  char[][] grid = createEmptyGrid();
     
     int turn = 1;
-    char player = 'R';
+    char player = '1';
     boolean winner = false;        
     
     while (!winner && turn <= 42) {
@@ -26,11 +26,13 @@ Scanner in = new Scanner(System.in);
     displayGrid(grid);
     
     if (winner) {
-        String winningPlayer = (player == 'R') ? "Red" : "Black";
-        System.out.println(winningPlayer + " won");
+        String winningPlayer = (player == '1') ? "Two" : "One";
+        System.out.println("Player " + winningPlayer + " wins!");
     } else {
         System.out.println("Tie game");
     }
+
+    in.close();
 }
 
 public static char[][] createEmptyGrid() {
@@ -129,6 +131,6 @@ public static boolean isWinner(char player, char[][] grid) {
 }
 
   public static char switchPlayer(char currentPlayer) {
-    return (currentPlayer == 'R') ? 'B' : 'R';
+    return (currentPlayer == '1') ? '2' : '1';
   }
 }
