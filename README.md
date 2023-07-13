@@ -12,4 +12,4 @@ This program will show an ASCII picture of rows and columns, with the columns nu
 
 To Run: java .\ConnectFour.java
 
-- This program requires a Java IDE of some kind to run. It was originally tested both with BlueJ and Visual Studio Code.
+This program requires a Java IDE of some kind to run. It was originally tested both with BlueJ and Visual Studio Code.
